@@ -1,25 +1,31 @@
 // Navbar con input para buscar y el logo y el icono del carro de compras
 import React, { Component } from 'react';
 import { Navbar, Form, FormControl, Button} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import logo from './../../img/Blue_Bag_ Shopping_Logo.jpg';
 import './style.css';
 
-
+// Inicio el componente de clase
 class navbar extends Component {
-    constructor(props) {
-        super(props);
-        // state inicial
+    constructor() {
+        super();
+        // Declaro un estado vacio inicial en el formControl
         this.state = {
             value: ''
         }
+        // Llamo a mis funciones declaradas más abajo .bind les pide que estas funciones
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+    // Funcion que detecta el cambio de estado en el formControl
     handleChange(event) {
         this.setState({
             value: event.target.value
         });
     }
+
+    // Funcion que toma el valor y poder usarlo
     handleSubmit(event) {
         console.log(`value ${this.state.value}`);
         event.preventDefault();
@@ -34,6 +40,7 @@ class navbar extends Component {
       })
     }
 
+    // Aquí se renderiza el navbar
     render() {
         return (
             <Navbar className='nav-bar'>
@@ -47,7 +54,7 @@ class navbar extends Component {
                     <Navbar.Form className='form-search'>
                         <Form onSubmit={this.handleSubmit}>
                             <FormControl type="text" value={this.state.value} onChange={this.handleChange} placeholder="Ropa, Autos, etc..." />
-                            <Button type="submit" value='Submit' bsStyle='success'>Buscar</Button>
+                            <Button type="submit" bsStyle='success'>Buscar</Button>
                         </Form>
                     </Navbar.Form>
                 </Navbar.Collapse>
@@ -56,5 +63,8 @@ class navbar extends Component {
     }
 }
 
+navbar.propTypes = {
+    value: PropTypes.string,
+}
 
 export default navbar;

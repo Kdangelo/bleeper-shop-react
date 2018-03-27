@@ -1,5 +1,4 @@
 // Carro de compras
-
 import React, { Component } from 'react';
 import { Table, Row, Col } from 'react-bootstrap';
 import './style.css'
@@ -7,20 +6,15 @@ import './style.css'
 class CartShop extends Component {
     constructor() {
         super();
-
         this.state = {
             cart: []
         }
     }
 
-
     render() {
-
         return (
-
-            <Row className="show-grid">
-                <Col xs={12} md={3} mdOffset={8}>
-                    <Table responsive>
+            <div className="item-table">
+                    <Table>
                         <thead>
                             <tr>
                                 <th>id</th>
@@ -38,13 +32,9 @@ class CartShop extends Component {
                             </tr>
                         </tbody>
                     </Table>
-                </Col>
-            </Row>
-
+            </div>
         )
-
     }
-
 }
             
 

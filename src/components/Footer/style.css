@@ -3,20 +3,22 @@
     background-color: #c62828;
     width: 100%;
     height: auto;
-    margin:0;
+    padding-bottom: 0.5em;
 }
 
 .in-foo ul{
     text-align: left;
-    margin-top: 2em;
-   
+    padding-top: 1em;
+    
 }
 
 .in-foo ul li {
     list-style: none;
+    margin-top: 1em;
 }
 
 .in-foo ul li a{
+   
     color: white;
     font-size: 1em;
     text-decoration: none;
@@ -27,13 +29,13 @@
 }
 
 .img-paypal{
-    margin-top: 1.5em;
-    margin-left: 6em;
-    text-align: left;
+   margin-top: -8em;
+    
 }
 
 .in-foo h6{
     text-align: right;
+    margin-right: 0.5em;
 
 }
 

@@ -1,5 +1,5 @@
 // Aquí haremos el llamado a la API
-import React { Component }from 'react';
+import React, { Component } from 'react';
 
 const url = 'https://api.mercadolibre.com/sites/MLC/search?q=';
 
@@ -7,12 +7,11 @@ class search extends Component {
   constructor() {
     super();
     this.state = {
-      results: [];
+      results: []
     };
   }
 
   componentDidMount(){
-
     fetch('https://api.mercadolibre.com/sites/MLC/search?q=')
     .then(search => {
       return search.json();

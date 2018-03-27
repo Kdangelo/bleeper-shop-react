@@ -1,4 +1,16 @@
-Table{
-    width:100%;
+.item-table Table {
+    width:15%;
+    border: 1px solid gray;
+    float: right;
 }
+
+
+@media (min-width: 320px) and (max-width: 641px) {
+    .item-table Table {
+        width: 35%;
+        
+    }
+
+}
+
 

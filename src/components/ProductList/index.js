@@ -2,12 +2,11 @@
 import React, { Component } from 'react';
 import Navbar from '../NavBar';
 import {Grid, Row, Col, Thumbnail, Button} from "react-bootstrap";
+import Navbar from '../../components/NavBar';
 import "./style.css"
 
 
 class ProductList extends Component {
- 
- 
   render() {
     const {title, price, condition, available, sold, state, city, thumbnail } = this.props
   
@@ -34,7 +33,6 @@ class ProductList extends Component {
       </Grid>
     )
   }
-
 }
 
 
