@@ -1,8 +1,10 @@
-# <img src="src/img/Blue_Bag_ Shopping_Logo.jpg" width=28>  Bleeper Shop
+# Bleeper Shop
 
 Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar búsquedas de productos existentes en la base de datos.
 
-![image](https://user-images.githubusercontent.com/30607043/37957856-5e1c3e88-3185-11e8-8ed4-6685486df1a9.png)
+<img src='https://user-images.githubusercontent.com/32299783/37910581-43ff5748-30e4-11e8-86cd-8ccadc982666.jpg'>
+
+## Proyecto desarrollado en [Laboratoria](http://www.laboratoria.la/)
 
 ## Aspectos Técnicos
 <img src='https://img.shields.io/badge/React-16.2.0-blue.svg'>
@@ -11,7 +13,7 @@ Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar b�
 
 ## Uso de la aplicación
 
- Puedes usarla directamente desde nuestro demo en [Github Pages](https://nadiaqn.github.io/bleeper-shop-react).
+ Puedes usarla directamente desde nuestro demo en [Github Pages](https://nadiaqn.github.io/bleeper-shop-react/).
 
 También puedes descargarla y usarla desde un local Host, para ello usa estos comando en tu terminal:
 
@@ -25,9 +27,6 @@ También puedes descargarla y usarla desde un local Host, para ello usa estos co
   npm start
 ```
 
-## Desarrollado para
-
-Laboratoria
 
 ## Colaboradoras
 
