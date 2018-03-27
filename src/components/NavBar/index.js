@@ -8,6 +8,7 @@ import './style.css';
 class navbar extends Component {
     constructor(props) {
         super(props);
+        // state inicial
         this.state = {
             value: ''
         }

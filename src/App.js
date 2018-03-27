@@ -10,8 +10,12 @@ import { Thumbnail } from 'react-bootstrap';
 
 
 class App extends Component {
+  // Añadimos las propiedades de la búsqueda del input del componente Navbar
+  // Al state de nuestro componente padre.
+  // Inicianmos el state con un array vacio
   state = { data: [] }
 
+  //recive los parámetros de data y actualizamos el state
   _handleResults = (data) => {
     this.setState({ data })
   }
