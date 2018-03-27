@@ -2,7 +2,7 @@
 
 Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar búsquedas de productos existentes en la base de datos.
 
-<img src='https://user-images.githubusercontent.com/32299783/37910581-43ff5748-30e4-11e8-86cd-8ccadc982666.jpg'>
+![image](https://user-images.githubusercontent.com/30607043/37958334-9efbe344-3186-11e8-9277-9701ebea4ba8.png)
 
 ## Proyecto desarrollado en [Laboratoria](http://www.laboratoria.la/)
 
