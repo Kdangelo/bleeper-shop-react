@@ -2,7 +2,7 @@
 
 Aplicación de *e-commerce* que utiliza la API de mercado libre para realizar búsquedas de productos existentes en la base de datos.
 
-![Vista Previa](https://user-images.githubusercontent.com/30607043/37911160-a8ad5900-30e5-11e8-9ab0-33f5c461602a.png)
+![image](https://user-images.githubusercontent.com/30607043/37957856-5e1c3e88-3185-11e8-8ed4-6685486df1a9.png)
 
 ## Aspectos Técnicos
 <img src='https://img.shields.io/badge/React-16.2.0-blue.svg'>
